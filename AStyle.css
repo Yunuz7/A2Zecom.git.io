@@ -1,0 +1,118 @@
+﻿*{
+  margin: 0px;
+  padding: 3px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family:italic;
+  justify-content: space-evenly;
+    
+}
+body {
+  width: 100%;
+  
+  
+ background-color: white; 
+}
+
+
+/* apple content section st*/
+.grid-apple{
+  display:grid;
+  grid-template-columns:auto auto  ;
+  padding:4px 50px;
+  
+  }
+  
+
+.grid-part{
+  background-color:white;
+  border:px solid gray;
+  
+  border-radius:10px; 
+  padding-top:15px;
+  padding-bottom:10px;
+  
+}
+.apple-img{
+  padding-bottom: 40px ;
+  padding-right: 0px;
+  text-align:center;
+  position: fixed;
+  
+}
+@media only screen and(max-width:1015px){
+  .grid-part{
+    width: 50%;
+    
+  }
+
+}
+
+@media only screen and (max-width:800px) {
+  .apple-img{
+    width: 100%;
+    position: sticky;
+    width: 100px;
+     
+  margin-left:180px; 
+  }
+}
+
+.h2{
+  float: left;
+}
+p{
+  text-align:left ;
+   color:solid black;
+   
+}
+li{
+  text-align: left ;
+}
+  
+ 
+.buy-button a{
+  text-decoration: none;
+  color: white;
+  background-color:orangered;
+  font-family: Arial;
+  border-radius: 5px;
+  padding: 10px;
+}
+.buy-button{
+  text-align: center;
+  padding: 40px;
+}
+span{
+  
+  padding: 130px;
+}
+
+table{
+  border-collapse: collapse;
+  border-color:  white; 
+  
+}
+i{
+  font-family: algerian;
+}
+
+@media only screen and (max-width:1015px) {
+  
+  .grid-part-2{
+    width: 50%;
+    
+    
+  }
+    }
+@media only screen and (max-width:850px) {
+      .grid-part-2{
+        width: 100%;
+        position:relative;
+        
+       margin-top: -40px;
+        text-align: left;
+        margin-left:190px; 
+
+      }
+        }
